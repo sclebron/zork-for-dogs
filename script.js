@@ -3,7 +3,7 @@ var rooms = {
 }
 
 $(document).ready(function(){
-    $('#game-text').append(rooms.room0)
+    $('#game-text').append(rooms["room0"])
     $(document).keypress(function(key){
         //if statement that checks if user presses Enter and is in user-input box
         if (key.which === 13 && $('#user-input').is(':focus')) {
