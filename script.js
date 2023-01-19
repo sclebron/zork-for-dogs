@@ -5,6 +5,7 @@ var rooms = {
 
 }
 
+var currentRoom = "start";
 
 $(document).ready(function(){
     $('#game-text').append("<p>" + rooms.start.description + "</p>")
