@@ -1,6 +1,10 @@
 var rooms = {
-    "room0": "<p>You are on a snow covered field. You see a hill up ahead and you see a group of deer to your right.</p>"
+    "start": {
+        "description": "You are on a snow covered field. You see a hill up ahead and you see a group of deer to your right."
+    },
+
 }
+
 
 $(document).ready(function(){
     $('#game-text').append(rooms["room0"])
