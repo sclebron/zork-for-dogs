@@ -22,6 +22,8 @@ $(document).ready(function(){
                 case "hill":
                     alert("You have gone to the hill");
                     break;
+                default: 
+                    alert("Invalid move");
              }
         }
     })
