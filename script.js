@@ -21,6 +21,7 @@ $(document).ready(function(){
              switch(value) {
                 case "hill":
                     alert("You have gone to the hill");
+                    break;
              }
         }
     })
