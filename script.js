@@ -7,7 +7,10 @@ var rooms = {
     },
     "deer": {
         "description": "You run over to the group of deer. One of the deer walks up to you. You can walk up to the deer or run past the deer to a cabin behind the deer."
-    }
+    },
+    "roll": {
+        "description": "You roll around in the snow at the top of the hill. So fun! You eat some snow and rub your face in it and then jump up. From the top of the hill you see a large group of animals running in a circle in the distance. To the left of the animals you see a frozen lake."
+    },
 }
 
 var currentRoom = "start";
