@@ -1,7 +1,10 @@
 var rooms = {
     "start": {
         "description": "You are on a snow covered field. You see a hill up ahead and you see a group of deer to your right.",
-        "directions": {}
+        "directions": {
+            "hill": "hill",
+            "deer": "deer"
+        }
     },
     "hill": {
         "description": "You run to the top of the hill. You can roll around in the snow at the top of the hill or slide down the hill.",
