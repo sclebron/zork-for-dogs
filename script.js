@@ -14,6 +14,9 @@ $(document).ready(function(){
                 case "hill":
                     changeRoom("hill");
                     break;
+                case "deer":
+                    changeRoom("deer");
+                    break
                 default: 
                     alert("Invalid move");
              }
