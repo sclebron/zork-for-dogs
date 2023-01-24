@@ -1,5 +1,9 @@
 var currentRoom = "start";
 
+function changeRoom(direction) {
+
+}
+
 $(document).ready(function(){
     $('#game-text').append("<p>" + rooms.start.description + "</p>")
     $(document).keypress(function(key){
@@ -8,7 +12,7 @@ $(document).ready(function(){
             var value = $('#user-input').val().toLowerCase();
              switch(value) {
                 case "hill":
-                    alert("You have gone to the hill");
+                    changeRoom("hill");
                     break;
                 default: 
                     alert("Invalid move");
