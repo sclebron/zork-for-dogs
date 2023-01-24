@@ -10,6 +10,7 @@ var rooms = {
         "description": "You run to the top of the hill. You can roll around in the snow at the top of the hill or slide down the hill.",
         "directions": {
             "roll": "roll",
+            "slide": "slide"
         }
     },
     "deer": {
