@@ -27,3 +27,5 @@ Sophie LeBron
 https://github.com/sclebron/zork-for-dogs
 
 ## Deployed Link
+
+https://sclebron.github.io/zork-for-dogs/
