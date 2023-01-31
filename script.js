@@ -10,7 +10,16 @@ function changeRoom(direction) {
 }
 
 function playerInput(input) {
-    var command = input.split('')
+    var command = input.split(' ')[0];
+    switch (command) {
+        case "hill":
+            changeRoom("hill");
+            break;
+        case "deer": 
+            changeRoom("deer");
+            break;
+        
+    }
 }
 
 $(document).ready(function(){
