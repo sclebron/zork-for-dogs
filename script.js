@@ -12,13 +12,11 @@ function changeRoom(direction) {
 function playerInput(input) {
     var command = input.split(' ')[0];
     switch (command) {
-        case "hill":
+        case "go":
             changeRoom("hill");
             break;
-        case "deer": 
-            changeRoom("deer");
-            break;
-        
+        default: 
+            $('#game-text').append('<p>Invalid command</p>');
     }
 }
 
