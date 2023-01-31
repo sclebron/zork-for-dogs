@@ -10,7 +10,7 @@ function changeRoom(direction) {
 }
 
 function playerInput(input) {
-    
+    var command = input.split('')
 }
 
 $(document).ready(function(){
