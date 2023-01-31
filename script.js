@@ -4,6 +4,8 @@ function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
         currentRoom = rooms[currentRoom].directions[direction];
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+    } else {
+        $('#game-text').append('<p>You cannot go that way</p>');
     }
 }
 
