@@ -9,7 +9,7 @@ function changeRoom(direction) {
     }
 }
 
-function playerInput() {
+function playerInput(input) {
     
 }
 
