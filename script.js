@@ -20,6 +20,12 @@ $(document).ready(function(){
                 case "deer":
                     changeRoom("deer");
                     break
+                case "roll":
+                    changeRoom("roll");
+                    break
+                case "slide": 
+                    changeRoom("slide");
+                    break
                 default: 
                     alert("Invalid move");
              }
