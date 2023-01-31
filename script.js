@@ -2,7 +2,8 @@ var currentRoom = "start";
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
-        currentRoom = 
+        currentRoom = rooms[currentRoom].directions[direction];
+        $('#game-text').append('<p>' + )
     }
 }
 
