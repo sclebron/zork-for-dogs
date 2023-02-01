@@ -9,12 +9,19 @@ function changeRoom(direction) {
     }
 }
 
+function showHelp() {
+    
+}
+
 function playerInput(input) {
     var command = input.split(' ')[0];
     switch (command) {
         case "go":
             var direction = input.split(' ')[1];
             changeRoom(direction);
+            break;
+        case "help":
+            showHelp();
             break;
         default: 
             $('#game-text').append('<p>Invalid command</p>');
