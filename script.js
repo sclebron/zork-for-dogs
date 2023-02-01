@@ -12,7 +12,11 @@ function changeRoom(direction) {
 
 function showHelp() {
     $('#game-text').append('<p>Here are the possible commands: </p>');
-    $('#game-text').append('<ul> </ul>');
+    $('#game-text').append('<ul>');
+        for (var i = 0; i < commands.length; i++) {
+            $('#game-text').append('<li>' + + '</li>');
+        }
+    $('#game-text').append('</ul>');
 }
 
 function playerInput(input) {
