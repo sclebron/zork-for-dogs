@@ -1,4 +1,5 @@
 var currentRoom = "start";
+var commands = ['go', 'pickup', 'look', 'talk'];
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -10,7 +11,7 @@ function changeRoom(direction) {
 }
 
 function showHelp() {
-    
+    $('#game-text').append('<p>Here are the possible commands: </p>')
 }
 
 function playerInput(input) {
