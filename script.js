@@ -11,7 +11,8 @@ function changeRoom(direction) {
 }
 
 function showHelp() {
-    $('#game-text').append('<p>Here are the possible commands: </p>')
+    $('#game-text').append('<p>Here are the possible commands: </p>');
+    $('#game-text').append('<ul> </ul>');
 }
 
 function playerInput(input) {
