@@ -1,5 +1,6 @@
 var currentRoom = "start";
 var commands = ['go', 'pickup', 'look', 'talk'];
+var inventory = [];
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -11,6 +12,15 @@ function changeRoom(direction) {
 }
 
 function showHelp() {
+    $('#game-text').append('<p>Here are the possible commands: </p>');
+    $('#game-text').append('<p><ul>');
+        for (var i = 0; i < commands.length; i++) {
+            $('#game-text').append('<li>' + commands[i] + '</li>');
+        }
+    $('#game-text').append('</ul></p>');
+}
+
+function showInventory() {
     $('#game-text').append('<p>Here are the possible commands: </p>');
     $('#game-text').append('<p><ul>');
         for (var i = 0; i < commands.length; i++) {
