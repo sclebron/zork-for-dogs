@@ -4,6 +4,9 @@ var rooms = {
         "directions": {
             "hill": "hill",
             "deer": "deer"
+        },
+        "items": {
+            "sword": "You see a shimmering light in a bush. "
         }
     },
     "hill": {
