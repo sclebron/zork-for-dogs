@@ -7,6 +7,9 @@ var rooms = {
         },
         "items": {
             "sword": "You see a shimmering light in a bush. "
+        },
+        "npcs": {
+            "old lady": "The old lady emits a strange noise and attacks you."
         }
     },
     "hill": {
