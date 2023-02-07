@@ -16,8 +16,8 @@ var rooms = {
     "shrub": {
         "description": "As you approach the shrub you catch the scent of some people nearby. You can follow the scent or look behind the shrub.",
         "directions": {
-            "": "",
-            "": ""
+            "scent": "scent",
+            "behind-shrub": "behind-shrub"
         }
     },
     "follow-deer": {
@@ -27,6 +27,18 @@ var rooms = {
         }
     },
     "noise": {
+        "description": "",
+        "directions": {
+
+        }
+    },
+    "scent": {
+        "description": "",
+        "directions": {
+
+        }
+    },
+    "behind-shrub": {
         "description": "",
         "directions": {
 
