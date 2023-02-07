@@ -28,9 +28,10 @@ var rooms = {
         }
     },
     "noise": {
-        "description": "",
+        "description": "You go towards the noise, which leads you into a forest. Through the trees you see a moose. You can walk up to the moose or turn and run away.",
         "directions": {
-
+            "moose": "moose",
+            "run": ""
         }
     },
     "scent": {
