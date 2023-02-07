@@ -14,9 +14,10 @@ var rooms = {
         }
     },
     "shrub": {
-        "description": "",
+        "description": "As you approach the shrub you catch the scent of some people nearby. You can follow the scent or look behind the shrub.",
         "directions": {
-
+            "": "",
+            "": ""
         }
     },
     "follow-deer": {
@@ -30,6 +31,7 @@ var rooms = {
         "directions": {
 
         }
+    }
 }
 
 // "items": {
