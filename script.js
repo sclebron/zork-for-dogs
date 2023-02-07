@@ -1,6 +1,5 @@
 var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look', 'talk', 'inventory'];
-var inventory = [];
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -11,7 +10,7 @@ function changeRoom(direction) {
     }
 }
 
-function showHelp() {
+function showInventory() {
     if (inventory.length === 0) {
         $('#game-text').append('<p>Your inventory is empty</p>');
         return;
@@ -24,7 +23,7 @@ function showHelp() {
     $('#game-text').append('</ul></p>');
 }
 
-function showInventory() {
+function showHelp() {
     $('#game-text').append('<p>Here are the possible commands: </p>');
     $('#game-text').append('<p><ul>');
         for (var i = 0; i < commands.length; i++) {
@@ -42,9 +41,6 @@ function playerInput(input) {
             break;
         case "help":
             showHelp();
-            break;
-        case "inventory": 
-            showInventory();
             break;
         default: 
             $('#game-text').append('<p>Invalid command</p>');
