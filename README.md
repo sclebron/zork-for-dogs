@@ -12,6 +12,8 @@
 
 ## Description
 
+Zork for Dogs is a text adventure game inspired by my dog, Peanut! 
+
 ## Installation
 
 ## User Story
