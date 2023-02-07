@@ -23,7 +23,8 @@ var rooms = {
     "follow-deer": {
         "description": "You follow the deer up a hill. At the top of the hill you see a plume of smoke to the left and a frozen lake to the right. You can go left towards the smoke or right to the lake.",
         "directions": {
-
+            "left": "smoke",
+            "right": "lake"
         }
     },
     "noise": {
