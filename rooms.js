@@ -7,7 +7,7 @@ var rooms = {
         },
     },
     "deer": {
-        "description": "",
+        "description": "You walk up to the deer. You jump around and play with a few of the young deer. The deer appear to hear something to the left and get startled. They run to the right. You can follow the deer to the right or go left towards the noise.",
         "directions": {
             "": "",
             "": ""
