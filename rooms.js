@@ -44,7 +44,21 @@ var rooms = {
         "directions": {
 
         }
-    }
+    },
+    "smoke": {
+        "description": "",
+        "directions": {
+            "left": "",
+            "right": ""
+        }
+    },
+    "lake": {
+        "description": "",
+        "directions": {
+            "left": "",
+            "right": ""
+        }
+    },
 }
 
 // "items": {
