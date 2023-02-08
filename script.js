@@ -10,21 +10,21 @@ function changeRoom(direction) {
     }
 }
 
-function showInventory() {
-    if (inventory.length === 0) {
-        $('#game-text').append('<p>Your inventory is empty</p>');
-        return;
-    }
-    $('#game-text').append('<p>Here is your inventory: </p>');
-    $('#game-text').append('<p><ul>');
-        for (var i = 0; i < inventory.length; i++) {
-            $('#game-text').append('<li>' + inventory[i] + '</li>');
-        }
-    $('#game-text').append('</ul></p>');
-}
+// function showInventory() {
+//     if (inventory.length === 0) {
+//         $('#game-text').append('<p>Your inventory is empty</p>');
+//         return;
+//     }
+//     $('#game-text').append('<p>Here is your inventory: </p>');
+//     $('#game-text').append('<p><ul>');
+//         for (var i = 0; i < inventory.length; i++) {
+//             $('#game-text').append('<li>' + inventory[i] + '</li>');
+//         }
+//     $('#game-text').append('</ul></p>');
+// }
 
 function showHelp() {
-    $('#game-text').append('<p>Here are the possible commands: </p>');
+    $('#game-text').append('<p>Here is how to play: </p>');
     $('#game-text').append('<p><ul>');
         for (var i = 0; i < commands.length; i++) {
             $('#game-text').append('<li>' + commands[i] + '</li>');
