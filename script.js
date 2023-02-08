@@ -1,5 +1,5 @@
 var currentRoom = 'start';
-var commands = ['go', 'pickup', 'look', 'talk', 'inventory'];
+var commands = ['go', 'pickup', 'look'];
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
