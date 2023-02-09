@@ -41,9 +41,10 @@ var rooms = {
         }
     },
     "behind-shrub": {
-        "description": "",
+        "description": "You see a hole in the snow and as well as a pile of berries. You can dig in the hole or eat the berries.",
         "directions": {
-
+            "dig": "hole",
+            "eat": "berries"
         }
     },
     "smoke": {
