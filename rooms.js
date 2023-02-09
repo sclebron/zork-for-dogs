@@ -47,10 +47,10 @@ var rooms = {
         }
     },
     "smoke": {
-        "description": "",
+        "description": "You run to the smoke. You see a man, huskies, and a sled around a fire. You can approach the man or the huskies.",
         "directions": {
-            "left": "",
-            "right": ""
+            "man": "man",
+            "huskies": "huskies"
         }
     },
     "lake": {
@@ -68,6 +68,20 @@ var rooms = {
         }
     },
     "run": {
+        "description": "",
+        "directions": {
+            "": "",
+            "": ""
+        }
+    },
+    "man": {
+        "description": "",
+        "directions": {
+            "": "",
+            "": ""
+        }
+    },
+    "huskies": {
         "description": "",
         "directions": {
             "": "",
