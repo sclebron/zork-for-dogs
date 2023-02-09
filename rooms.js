@@ -97,10 +97,10 @@ var rooms = {
         }
     },
     "berries": {
-        "description": "You run to the smoke. You see a man, huskies, and a sled around a fire. You can approach the man or the huskies.",
+        "description": "",
         "directions": {
-            "man": "man",
-            "huskies": "huskies"
+            "": "",
+            "": ""
         }
     },
 }
