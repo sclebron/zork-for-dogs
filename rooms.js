@@ -89,6 +89,20 @@ var rooms = {
             "": ""
         }
     },
+    "hole": {
+        "description": "",
+        "directions": {
+            "": "",
+            "": ""
+        }
+    },
+    "berries": {
+        "description": "You run to the smoke. You see a man, huskies, and a sled around a fire. You can approach the man or the huskies.",
+        "directions": {
+            "man": "man",
+            "huskies": "huskies"
+        }
+    },
 }
 
 // "items": {
