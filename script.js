@@ -9,19 +9,7 @@ function changeRoom(direction) {
         $('#game-text').append('<p>You cannot go that way!</p>');
     }
 }
-
-// function showInventory() {
-//     if (inventory.length === 0) {
-//         $('#game-text').append('<p>Your inventory is empty</p>');
-//         return;
-//     }
-//     $('#game-text').append('<p>Here is your inventory: </p>');
-//     $('#game-text').append('<p><ul>');
-//         for (var i = 0; i < inventory.length; i++) {
-//             $('#game-text').append('<li>' + inventory[i] + '</li>');
-//         }
-//     $('#game-text').append('</ul></p>');
-// }
+/*how changeRoom currently works - have to type 'go' and then second word must be word to the left of colon in directions object of the room which will result in moving to the room which is identified by the word to the right of the colon. maybe make word to left and right the same and make it so that the word just has to be in the userinput not necessarily the second word and the person doesn't have to say 'go'. essentially - as long as the word to the left of the colon is identified in userinput then the user will move to the room identified by the word to the right of the colon */
 
 function showHelp() {
     $('#game-text').append('<p>Here is how to play: </p>');
@@ -58,3 +46,16 @@ $(document).ready(function(){
         }
     })
 })
+
+// function showInventory() {
+//     if (inventory.length === 0) {
+//         $('#game-text').append('<p>Your inventory is empty</p>');
+//         return;
+//     }
+//     $('#game-text').append('<p>Here is your inventory: </p>');
+//     $('#game-text').append('<p><ul>');
+//         for (var i = 0; i < inventory.length; i++) {
+//             $('#game-text').append('<li>' + inventory[i] + '</li>');
+//         }
+//     $('#game-text').append('</ul></p>');
+// }
