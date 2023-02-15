@@ -25,7 +25,8 @@ function playerInput(input) {
     var command = input.split(' ')[0];
     switch (command) {
         case "go":
-            var direction = input.split(' ')[1];
+            // var direction = input.split(' ')[1];
+            
             changeRoom(direction);
             break;
         case "help":
