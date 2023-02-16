@@ -2,7 +2,7 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 
 function changeRoom(direction) {
-    if(rooms[currentRoom].directions[direction] !== undefined) {
+    if(rooms[currentRoom].directions[direction] !== undefined && input.includes(direction)) {
         currentRoom = rooms[currentRoom].directions[direction];
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
