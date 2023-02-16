@@ -2,7 +2,7 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 
 function changeRoom(direction) {
-    if(rooms[currentRoom].directions[direction] !== undefined && user-input.includes(direction)) {
+    if(rooms[currentRoom].directions[direction] !== undefined && input.includes(direction)) {
         currentRoom = rooms[currentRoom].directions[direction];
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
@@ -26,7 +26,7 @@ function playerInput(input) {
     switch (command) {
         case "go":
             // var direction = input.split(' ')[1];
-            var direction = 
+            var direction = rooms.directions;
             changeRoom(direction);
             break;
         case "help":

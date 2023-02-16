@@ -23,8 +23,8 @@ var rooms = {
     "follow-deer": {
         "description": "You follow the deer up a hill. At the top of the hill you see a plume of smoke to the left and a frozen lake to the right. You can go left towards the smoke or right to the lake.",
         "directions": {
-            "left": "smoke",
-            "right": "lake"
+            "smoke": "smoke",
+            "lake": "lake"
         }
     },
     "noise": {
@@ -43,8 +43,8 @@ var rooms = {
     "behind-shrub": {
         "description": "You see a hole in the snow and as well as a pile of berries. You can dig in the hole or eat the berries.",
         "directions": {
-            "dig": "hole",
-            "eat": "berries"
+            "hole": "hole",
+            "berries": "berries"
         }
     },
     "smoke": {
