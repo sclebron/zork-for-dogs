@@ -8,3 +8,7 @@ body {
     color: white;
 }
 
+::placeholder {
+    color: white;
+}
+
