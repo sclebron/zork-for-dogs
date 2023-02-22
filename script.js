@@ -3,7 +3,7 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 function changeRoom(direction) {
-    if(rooms[currentRoom].directions[direction] !== undefined && input.includes(direction)) {
+    if(rooms[currentRoom].directions[direction] !== undefined && input.includes(directions)) {
         currentRoom = rooms[currentRoom].directions[direction];
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
