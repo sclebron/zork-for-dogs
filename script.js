@@ -1,5 +1,6 @@
 var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
+var help = "";
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined && input.includes(direction)) {
@@ -14,11 +15,7 @@ if (input.includes(keyword) ) {trigger function to change to the room that corre
 
 function showHelp() {
     $('#game-text').append('<p>Here is how to play: </p>');
-    $('#game-text').append('<p><ul>');
-        for (var i = 0; i < commands.length; i++) {
-            $('#game-text').append('<li>' + commands[i] + '</li>');
-        }
-    $('#game-text').append('</ul></p>');
+    $('#game-text').append(help);
 }
 
 function playerInput(input) {
