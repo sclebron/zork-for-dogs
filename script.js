@@ -32,6 +32,8 @@ function showHelp() {
 //     }
 // }
 
+/*change switch statement to if statement because of command  */
+
 function playerInput(input) {
     if (input === "help") {
         showHelp();
