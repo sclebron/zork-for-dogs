@@ -3,7 +3,7 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 function changeRoom(direction) {
-    if(rooms[currentRoom].directions[direction] !== undefined && input.includes(directions)) {
+    if(rooms[currentRoom].directions[direction] !== undefined) {
         currentRoom = rooms[currentRoom].directions[direction];
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
@@ -34,8 +34,10 @@ function showHelp() {
 
 function playerInput(input) {
     if (input === "help") {
-        showHelp()
-    } else if (input === )
+        showHelp();
+    } else if (input.includes === directions) {
+        changeRoom();
+    }
 }
 
 $(document).ready(function(){
