@@ -37,9 +37,10 @@ function showHelp() {
 function playerInput(input) {
     if (input === "help") {
         showHelp();
-    } else if (input.includes === directions) {
+    } else if (input.includes === rooms.directions) {
+        console.log(rooms.directions)
         changeRoom();
-    } else if (input.includes !== directions) {
+    } else if (input.includes !== rooms.directions) {
         $('#game-text').append('<p>Invalid command</p>');
     }
 }
