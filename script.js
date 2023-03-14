@@ -34,13 +34,15 @@ function showHelp() {
 
 /*change switch statement to if statement because of command  */
 
+const direction1 = ((rooms || {}).directions || {}).direction1;
+
 function playerInput(input) {
     if (input === "help") {
         showHelp();
-    } else if (input.includes == rooms.directions.direction1) {
+    } else if (input.includes == direction1) {
         console.log(rooms.directions.direction1)
         changeRoom();
-    } else if (input.includes !== rooms.directions.direction1) {
+    } else if (input.includes !== direction1) {
         $('#game-text').append('<p>Invalid command</p>');
     }
 }
