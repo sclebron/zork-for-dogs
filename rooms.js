@@ -37,7 +37,7 @@ var rooms = {
     "scent": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "feihao",
             "direction2": "",
         }
     },
@@ -58,49 +58,49 @@ var rooms = {
     "lake": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "fhdiao",
             "right": ""
         }
     },
     "moose": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "fhdia",
             "": ""
         }
     },
     "run": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "fd",
             "": ""
         }
     },
     "man": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "efr",
             "": ""
         }
     },
     "huskies": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "fds",
             "": ""
         }
     },
     "hole": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "q2",
             "": ""
         }
     },
     "berries": {
         "description": "",
         "directions": {
-            "direction1": "",
+            "direction1": "few",
             "": ""
         }
     },
