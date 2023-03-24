@@ -2,6 +2,9 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 var help = "";
 
+const direction1 = ((rooms || {}).directions || {}).direction1;
+console.log(direction1);
+
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
         currentRoom = rooms[currentRoom].directions[direction];
@@ -33,8 +36,6 @@ function showHelp() {
 // }
 
 /*change switch statement to if statement because of command  */
-
-const direction1 = ((rooms || {}).directions || {}).direction1;
 
 function playerInput(input) {
     if (input === "help") {
