@@ -10,14 +10,13 @@ body {
 
 ::placeholder {
     color: white;
-    animation: blinkingText 1.2s infinite;
+    animation: blink-animation 1s steps(5, start) infinite;
 }
 
-@keyframes blinkingText {
-    0%{ color: white; }
-    49%{ color: white; }
-    60%{ color: transparent; }
-    99%{ color: transparent; }
-    100%{ color: white; }
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
 }
+
 
