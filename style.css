@@ -10,12 +10,18 @@ body {
 
 ::placeholder {
     color: white;
-    animation: blink-animation 1s steps(5, start) infinite;
+    animation: blink 1s linear infinite;
 }
 
-@keyframes blink-animation {
-    to {
-      visibility: hidden;
+@keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
     }
 }
 
