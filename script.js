@@ -3,7 +3,8 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 const direction1 = ((rooms || {}).directions || {}).direction1;
-console.log(direction1);
+//problem is was not accounting for directions being within the start room/name of room. if can make it so that its rooms.nameofroom.directions.direction1/2 then could work. need way to interchange nameofroom for whatever room user is currently in
+console.log(rooms.start.directions.direction1);
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
