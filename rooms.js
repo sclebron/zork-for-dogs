@@ -84,10 +84,10 @@ var rooms = {
         }
     },
     "huskies": {
-        "description": "",
+        "description": "You say hi and they say hi back. The sun is setting and they lay down to go to sleep. You can sleep with them or go up to the man.",
         "directions": {
-            "direction1": "fds",
-            "": ""
+            "direction1": "sleep",
+            "direction2": "man"
         }
     },
     "hole": {
@@ -101,6 +101,13 @@ var rooms = {
         "description": "",
         "directions": {
             "direction1": "few",
+            "": ""
+        }
+    },
+    "sleep": {
+        "description": "",
+        "directions": {
+            "direction1": "",
             "": ""
         }
     },
