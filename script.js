@@ -2,7 +2,7 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 var help = "";
 
-// const direction1 = rooms.objectName.directtions.direction1;
+// const direction1 = rooms[currentRoom].directtions.direction1;
 console.log(rooms[currentRoom].directions.direction1);
 
 function changeRoom(direction) {
