@@ -2,8 +2,8 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 var help = "";
 
-// const direction1 = rooms[currentRoom].directtions.direction1;
-console.log(rooms[currentRoom].directions.direction1);
+const direction1 = rooms[currentRoom].directions.direction1;
+console.log(direction1);
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -13,6 +13,8 @@ function changeRoom(direction) {
         $('#game-text').append('<p>You cannot go that way!</p>');
     }
 }
+
+
 
 function showHelp() {
     $('#game-text').append('<p>Here is how to play: </p>');
