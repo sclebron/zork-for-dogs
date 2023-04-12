@@ -3,7 +3,7 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 const direction1 = rooms[currentRoom].directions.direction1;
-console.log(direction1);
+// console.log(direction1);
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -43,10 +43,12 @@ function playerInput(input) {
     if (input === "help") {
         showHelp();
     } else if (input.includes == direction1) {
-        console.log(rooms.directions.direction1)
+        //direction1 is being logged as the correct string, so there is an issue with the input.includes, even though direction1 is included it is still coming back with invalid command
+        console.log(direction1)
         changeRoom();
     } else if (input.includes !== direction1) {
         $('#game-text').append('<p>Invalid command</p>');
+        console.log(direction1)
     }
 }
 
