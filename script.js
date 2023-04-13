@@ -42,11 +42,10 @@ function showHelp() {
 function playerInput(input) {
     if (input === "help") {
         showHelp();
-    } else if (input.includes == direction1) {
-        //direction1 is being logged as the correct string, so there is an issue with the input.includes, even though direction1 is included it is still coming back with invalid command
+    } else if (input.includes(direction1) == true) {
         console.log(direction1)
         changeRoom();
-    } else if (input.includes !== direction1) {
+    } else if (input.includes(direction1) == false) {
         $('#game-text').append('<p>Invalid command</p>');
         console.log(direction1)
     }
