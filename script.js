@@ -3,6 +3,8 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 const direction1 = rooms[currentRoom].directions.direction1;
+const direction2 = rooms[currentRoom].directions.direction2;
+let direction = 
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
@@ -42,10 +44,10 @@ function showHelp() {
 function playerInput(input) {
     if (input === "help") {
         showHelp();
-    } else if (input.includes(direction1) == true) {
-        console.log(direction1)
+    } else if (input.includes(direction1) == true || input.includes(direction2) == true) {
         changeRoom();
-    } else if (input.includes(direction1) == false) {
+        //changeRoom is undefined error
+    } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
         $('#game-text').append('<p>Invalid command</p>');
     }
 }
