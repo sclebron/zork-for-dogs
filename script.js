@@ -3,11 +3,11 @@ var commands = ['go', 'pickup', 'look'];
 var help = "";
 
 const direction1 = rooms[currentRoom].directions.direction1;
-// console.log(direction1);
 
 function changeRoom(direction) {
     if(rooms[currentRoom].directions[direction] !== undefined) {
         currentRoom = rooms[currentRoom].directions[direction];
+        //need to define direction or change how this function works, right now direction is undefined
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
         $('#game-text').append('<p>You cannot go that way!</p>');
@@ -47,7 +47,6 @@ function playerInput(input) {
         changeRoom();
     } else if (input.includes(direction1) == false) {
         $('#game-text').append('<p>Invalid command</p>');
-        console.log(direction1)
     }
 }
 
