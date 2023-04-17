@@ -5,22 +5,33 @@ var help = "";
 const direction1 = rooms[currentRoom].directions.direction1;
 const direction2 = rooms[currentRoom].directions.direction2;
 
-function changeRoom(direction) {
-    // if (user-input.includes(direction1) == true) {
-    //     let direction = direction1;
-    // } else if (user-input.includes(direction2) == true) {
-    //     let direction = direction2;
+// function changeRoom(direction) {
+//     // if (user-input.includes(direction1) == true) {
+//     //     let direction = direction1;
+//     // } else if (user-input.includes(direction2) == true) {
+//     //     let direction = direction2;
+//     // }
+
+//     if (user-input.includes(direction1) == true) {
+//         currentRoom = rooms[currentRoom].directions.direction1;
+//         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+//     } else if (user-input.includes(direction2) == true) {
+//         currentRoom = rooms[currentRoom].directions.direction2;
+//         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+//     } else {
+//         $('#game-text').append('<p>You cannot go that way!</p>');
+//     }
+
+    // if(rooms[currentRoom].directions[direction] !== undefined) {
+    //     currentRoom = rooms[currentRoom].directions[direction];
+    //     //need to define direction or change how this function works, right now direction is undefined
+    //     console.log(direction)
+    //     $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+    // } else {
+    //     $('#game-text').append('<p>You cannot go that way!</p>');
+    //     console.log(direction)
     // }
-    if(rooms[currentRoom].directions[direction] !== undefined) {
-        currentRoom = rooms[currentRoom].directions[direction];
-        //need to define direction or change how this function works, right now direction is undefined
-        console.log(direction)
-        $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
-    } else {
-        $('#game-text').append('<p>You cannot go that way!</p>');
-        console.log(direction)
-    }
-}
+// }
 
 function showHelp() {
     $('#game-text').append('<p>Here is how to play: </p>');
@@ -36,10 +47,16 @@ function playerInput(input) {
     // let direction = rooms.directions;
     if (input === "help") {
         showHelp();
-    } else if (input.includes(direction1) == true || input.includes(direction2) == true) {
-        changeRoom();
+    // } else if (input.includes(direction1) == true || input.includes(direction2) == true) {
+        // changeRoom();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
         $('#game-text').append('<p>Invalid command</p>');
+    } else if (input.includes(direction1) == true) {
+        currentRoom = rooms[currentRoom].directions.direction1;
+        $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+    } else if (input.includes(direction2) == true) {
+        currentRoom = rooms[currentRoom].directions.direction2;
+        $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     }
 }
 
