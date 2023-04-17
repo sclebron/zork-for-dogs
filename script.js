@@ -51,6 +51,7 @@ function playerInput(input) {
         // changeRoom();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
         $('#game-text').append('<p>Invalid command</p>');
+        console.log(currentRoom)
     } else if (input.includes(direction1) == true) {
         currentRoom = rooms[currentRoom].directions.direction1;
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
