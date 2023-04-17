@@ -63,6 +63,8 @@ function playerInput(input) {
     }
 }
 
+//works from start to first room change then comes back invalid command when it should change to next room
+
 $(document).ready(function(){
     $('#game-text').append("<p>" + rooms.start.description + "</p>")
     $(document).keypress(function(key){
