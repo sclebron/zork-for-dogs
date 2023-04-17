@@ -4,11 +4,6 @@ var help = "";
 
 const direction1 = rooms[currentRoom].directions.direction1;
 const direction2 = rooms[currentRoom].directions.direction2;
-// if (user-input.includes(direction1) == true) {
-//     let direction = direction1;
-// } else if (user-input.includes(direction2) == true) {
-//     let direction = direction2;
-// }
 
 function changeRoom(direction) {
     // if (user-input.includes(direction1) == true) {
