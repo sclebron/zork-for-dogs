@@ -57,6 +57,8 @@ function playerInput(input) {
     } else if (input.includes(direction2) == true) {
         currentRoom = rooms[currentRoom].directions.direction2;
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
+    } else {
+        $('#game-text').append('<p>You cannot go that way!</p>');
     }
 }
 
