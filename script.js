@@ -2,9 +2,6 @@ var currentRoom = 'start';
 var commands = ['go', 'pickup', 'look'];
 var help = "";
 
-const direction1 = rooms[currentRoom].directions.direction1;
-const direction2 = rooms[currentRoom].directions.direction2;
-
 // function changeRoom(direction) {
 //     // if (user-input.includes(direction1) == true) {
 //     //     let direction = direction1;
@@ -39,6 +36,8 @@ function showHelp() {
 }
 
 function playerInput(input) {
+    let direction1 = rooms[currentRoom].directions.direction1;
+    let direction2 = rooms[currentRoom].directions.direction2;
     // if (input.includes(direction1) == true) {
     //     let direction = direction1;
     // } else if (input.includes(direction2) == true) {
@@ -52,6 +51,7 @@ function playerInput(input) {
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
         $('#game-text').append('<p>Invalid command</p>');
         console.log(currentRoom)
+        console.log(direction2)
     } else if (input.includes(direction1) == true) {
         currentRoom = rooms[currentRoom].directions.direction1;
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
@@ -62,8 +62,6 @@ function playerInput(input) {
         $('#game-text').append('<p>You cannot go that way!</p>');
     }
 }
-
-//works from start to first room change then comes back invalid command when it should change to next room
 
 $(document).ready(function(){
     $('#game-text').append("<p>" + rooms.start.description + "</p>")
@@ -76,19 +74,6 @@ $(document).ready(function(){
         }
     })
 })
-
-// function showInventory() {
-//     if (inventory.length === 0) {
-//         $('#game-text').append('<p>Your inventory is empty</p>');
-//         return;
-//     }
-//     $('#game-text').append('<p>Here is your inventory: </p>');
-//     $('#game-text').append('<p><ul>');
-//         for (var i = 0; i < inventory.length; i++) {
-//             $('#game-text').append('<li>' + inventory[i] + '</li>');
-//         }
-//     $('#game-text').append('</ul></p>');
-// }
 
 // function playerInput(input) {
 //     var command = input.split(' ')[0];
