@@ -9,7 +9,7 @@ var rooms = {
     "deer": {
         "description": "You walk up to the deer. You jump around and play with a few of the young deer. The deer appear to hear something to the left and get startled. They run to the right. You can follow the deer to the right or go left towards the noise.",
         "directions": {
-            "direction1": "follow-deer",
+            "direction1": "follow",
             "direction2": "noise"
         }
     },
@@ -20,7 +20,7 @@ var rooms = {
             "direction2": "behind-shrub"
         }
     },
-    "follow-deer": {
+    "follow": {
         "description": "You follow the deer up a hill. At the top of the hill you see a plume of smoke to the left and a frozen lake to the right. You can go left towards the smoke or right to the lake.",
         "directions": {
             "direction1": "smoke",
@@ -105,10 +105,25 @@ var rooms = {
         }
     },
     "sleep": {
-        "description": "",
+        "description": "You lay down with them and go to sleep. As the sun is rising you hear a noise and see a large, dark figure. You go wake up the man and when he sees the figure he yells 'bear!'. He quickly attaches you and the other dogs to the sled. You can stay attached or slip out of teh harness and run towards the bear.",
+        "directions": {
+            "direction1": "attached",
+            "direction2": "bear"
+        }
+    },
+    "attached": {
+        "description": "You and the other dogs run until you arrive at a river. The man sets up a fishing pole. The huskies travel further up the riverside. You can follow the huskies or stay with the man.",
         "directions": {
             "direction1": "",
             "direction2": ""
         }
     },
+"bear": {
+    "description": "",
+    "directions": {
+        "direction1": "",
+        "direction2": ""
+    }
+},
+
 }
