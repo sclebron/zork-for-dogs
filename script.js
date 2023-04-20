@@ -21,7 +21,7 @@ function playerInput(input) {
     // } else if (input.includes(direction1) == true || input.includes(direction2) == true) {
         // changeRoom();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
-        $('#game-text').append('<p>Invalid command</p>');
+        $('#game-text').append('<p>You cannot go that way!</p>');
         console.log(currentRoom)
         console.log(direction2)
     } else if (input.includes(direction1) == true) {
@@ -31,7 +31,7 @@ function playerInput(input) {
         currentRoom = rooms[currentRoom].directions.direction2;
         $('#game-text').append('<p>' + rooms[currentRoom].description + '</p>');
     } else {
-        $('#game-text').append('<p>You cannot go that way!</p>');
+        $('#game-text').append('<p>Invalid command</p>');
     }
 }
 

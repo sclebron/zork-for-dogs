@@ -114,16 +114,120 @@ var rooms = {
     "attached": {
         "description": "You and the other dogs run until you arrive at a river. The man sets up a fishing pole. The huskies travel further up the riverside. You can follow the huskies or stay with the man.",
         "directions": {
+            "direction1": "riverside",
+            "direction2": "stay"
+        }
+    },
+    "bear": {
+        "description": "",
+        "directions": {
             "direction1": "",
             "direction2": ""
         }
     },
-"bear": {
-    "description": "",
-    "directions": {
-        "direction1": "",
-        "direction2": ""
-    }
-},
-
+    "riverside": {
+        "description": "As you travel along the river one husky starts running and it turns into a race. You and the huskies are running as fast as you can and you're the fastest. There is a hole in the snow and you stop to inspect it. You can sniff around the hole or run back to the man fishing.",
+        "directions": {
+            "direction1": "sniff",
+            "direction2": "fishing"
+        }
+    },
+    "stay": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "sniff": {
+        "description": "You start digging and stick your nose in the hole and then keep digging. You feel a sharp scratch on your paw. You can stop digging and go back to the huskies or keep digging.",
+        "directions": {
+            "direction1": "stop",
+            "direction2": "keep"
+        }
+    },
+    "fishing": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "stop": {
+        "description": "You run towards the huskies and then together run back towards the man. The man still has his fishing pole set up and a pile of fish next to him. You can sit next to the man and stare at him until he gives you a fish or you can go down by the river and try to catch a fish.",
+        "directions": {
+            "direction1": "stare",
+            "direction2": "catch"
+        }
+    },
+    "keep": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "stare": {
+        "description": "After a few seconds of staring at the man, he gives you a fish. You can eat the fish or bring it to one of the huskies.",
+        "directions": {
+            "direction1": "eat",
+            "direction2": "bring"
+        }
+    },
+    "catch": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "eat": {
+        "description": "You eat the fish and then curl up and take a nap. When you wake up there is a beautiful sunset. The man is attaching the dogs to the sled. You can walk over to get attached or go to the river to catch a fish.",
+        "directions": {
+            "direction1": "walk",
+            "direction2": "catch"
+        }
+    },
+    "bring": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "walk": {
+        "description": "The man attaches you to the sled and you and the huskies start running through the woods. You get to a clearing and see a cabin in the distance. You pull hard towards the cabin until the man detaches you from the sled. You can run to the cabin or past the cabin into the trees behind it.",
+        "directions": {
+            "direction1": "to",
+            "direction2": "past"
+        }
+    },
+    "to": {
+        "description": "You run up to the cabin. You can scratch on the door or put your paws up on the windowsill and look through the window.",
+        "directions": {
+            "direction1": "scratch",
+            "direction2": "window"
+        }
+    },
+    "past": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "scratch": {
+        "description": "You scratch on the door and a few seconds later the door opens. It's mom and dad! You jump up on dad and get scratches and hugs from mom and dad.",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "window": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
 }
