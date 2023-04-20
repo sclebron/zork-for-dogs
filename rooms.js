@@ -219,8 +219,8 @@ var rooms = {
     "scratch": {
         "description": "You scratch on the door and a few seconds later the door opens. It's mom and dad! You jump up on dad and get scratches and hugs from mom and dad.",
         "directions": {
-            "direction1": "",
-            "direction2": ""
+            "direction1": "end",
+            "direction2": "end"
         }
     },
     "window": {
