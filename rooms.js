@@ -62,13 +62,6 @@ var rooms = {
             "direction2": "",
         }
     },
-    "dogs": {
-        "description": "",
-        "directions": {
-            "direction1": "",
-            "direction2": "",
-        }
-    },
     "behind": {
         "description": "You see a hole in the snow and as well as a pile of berries. You can dig in the hole or eat the berries.",
         "directions": {
@@ -77,10 +70,10 @@ var rooms = {
         }
     },
     "smoke": {
-        "description": "You run to the smoke. You see a man, huskies, and a sled around a fire. You can approach the man or the huskies.",
+        "description": "You run to the smoke. You see a man, huskies, and a sled around a fire. You can approach the man or the dogs.",
         "directions": {
             "direction1": "man",
-            "direction2": "huskies"
+            "direction2": "dogs"
         }
     },
     "lake": {
@@ -111,8 +104,8 @@ var rooms = {
             "direction2": ""
         }
     },
-    "huskies": {
-        "description": "You say hi and they say hi back. The sun is setting and they lay down to go to sleep. You can sleep with them or go up to the man.",
+    "dogs": {
+        "description": "You walk up to the group of huskies. You say hi and they say hi back. The sun is setting and they lay down to go to sleep. You can sleep with them or go up to the man.",
         "directions": {
             "direction1": "sleep",
             "direction2": "man"
