@@ -17,7 +17,7 @@ var rooms = {
         "description": "As you approach the shrub you catch the scent of some people nearby. You can follow the scent or look behind the shrub.",
         "directions": {
             "direction1": "scent",
-            "direction2": "behind-shrub"
+            "direction2": "behind"
         }
     },
     "follow": {
@@ -35,13 +35,41 @@ var rooms = {
         }
     },
     "scent": {
+        "description": "You follow the scent until in the distance you see people snowshoeing. You can run to catch up to the people snowshoeing or run to some nearby trees.",
+        "directions": {
+            "direction1": "snowshoeing",
+            "direction2": "trees",
+        }
+    },
+    "snowshoeing": {
         "description": "",
         "directions": {
-            "direction1": "feihao",
+            "direction1": "",
             "direction2": "",
         }
     },
-    "behind-shrub": {
+    "trees": {
+        "description": "As you are walking through the trees it starts to snow. You catch the scent of dogs. You can look for shelter from the snow or look for the dogs.",
+        "directions": {
+            "direction1": "shelter",
+            "direction2": "dogs",
+        }
+    },
+    "shelter": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": "",
+        }
+    },
+    "dogs": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": "",
+        }
+    },
+    "behind": {
         "description": "You see a hole in the snow and as well as a pile of berries. You can dig in the hole or eat the berries.",
         "directions": {
             "direction1": "hole",
