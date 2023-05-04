@@ -91,10 +91,10 @@ var rooms = {
         }
     },
     "run": {
-        "description": "",
+        "description": "As you run away you catch the scent of dogs and then hear running water. You can look for the dogs or go towards the sound of water.",
         "directions": {
-            "direction1": "fd",
-            "direction2": ""
+            "direction1": "dogs",
+            "direction2": "water"
         }
     },
     "man": {
@@ -109,6 +109,27 @@ var rooms = {
         "directions": {
             "direction1": "sleep",
             "direction2": "man"
+        }
+    },
+    "water": {
+        "description": "You reach a small waterfall. You can drink from the pool of water at the bottom of the waterfall or swim in it.",
+        "directions": {
+            "direction1": "drink",
+            "direction2": "swim"
+        }
+    },
+    "drink": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "swim": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
         }
     },
     "hole": {
@@ -238,17 +259,17 @@ var rooms = {
         }
     },
     "scratch": {
-        "description": "You scratch on the door and a few seconds later the door opens. It's mom and dad! You jump up on dad and get scratches and hugs from mom and dad.",
+        "description": "You scratch on the door and a few seconds later the door opens. It's mom and dad! You jump up on dad and get scratches and hugs from mom and dad. The End!",
         "directions": {
             "direction1": "end",
             "direction2": "end"
         }
     },
     "window": {
-        "description": "",
+        "description": "When you look in the window you see mom and dad! They see you and open the door to let you in. You jump on dad and get scratches from mom and dad. The End!",
         "directions": {
-            "direction1": "",
-            "direction2": ""
+            "direction1": "end",
+            "direction2": "end"
         }
     },
 }
