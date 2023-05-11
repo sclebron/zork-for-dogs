@@ -4,7 +4,6 @@
 
 - [Description](#description)
 - [User Story](#user_story)
-- [Usage](#usage)
 - [Contributors](#contributors)
 - [Github](#github)
 - [Deployed Link](#deployed_link)
@@ -14,8 +13,6 @@
 Zork for Dogs is a text adventure game inspired by my dog, Peanut! 
 
 ## User Story
-
-## Usage
 
 ## Contributors 
 
