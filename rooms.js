@@ -140,10 +140,10 @@ var rooms = {
         }
     },
     "berries": {
-        "description": "",
+        "description": "As you're eating the berries a fox runs up and chases you away from the berry pile. You can go back to the fox or run into some nearby trees.",
         "directions": {
-            "direction1": "few",
-            "direction2": ""
+            "direction1": "fox",
+            "direction2": "trees"
         }
     },
     "sleep": {
