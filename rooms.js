@@ -240,11 +240,11 @@ var rooms = {
     "walk": {
         "description": "The man attaches you to the sled and you and the huskies start running through the woods. You get to a clearing and see a cabin in the distance. You pull hard towards the cabin until the man detaches you from the sled. You can run to the cabin or past the cabin into the trees behind it.",
         "directions": {
-            "direction1": "to",
+            "direction1": "cabin",
             "direction2": "past"
         }
     },
-    "to": {
+    "cabin": {
         "description": "You run up to the cabin. You can scratch on the door or put your paws up on the windowsill and look through the window.",
         "directions": {
             "direction1": "scratch",
@@ -252,6 +252,27 @@ var rooms = {
         }
     },
     "past": {
+        "description": "You see seom tracks in the snow. You can follow the tracks or continue further into the woods.",
+        "directions": {
+            "direction1": "tracks",
+            "direction2": "further"
+        }
+    },
+    "tracks": {
+        "description": "The tracks lead to a cave. You can go in the cave or go back to the cabin.",
+        "directions": {
+            "direction1": "cave",
+            "direction2": "cabin"
+        }
+    },
+    "further": {
+        "description": "",
+        "directions": {
+            "direction1": "",
+            "direction2": ""
+        }
+    },
+    "cave": {
         "description": "",
         "directions": {
             "direction1": "",
