@@ -100,7 +100,7 @@ var rooms = {
     "man": {
         "description": "",
         "directions": {
-            "direction1": "efr",
+            "direction1": "",
             "direction2": ""
         }
     },
@@ -133,9 +133,16 @@ var rooms = {
         }
     },
     "hole": {
+        "description": "You look in the hole and see a family of whtie snow rabbits. You pull your head out of the hole and the rabbits hop out. The rabbits start hopping away. You can follow the rabbits or run to some nearby trees.",
+        "directions": {
+            "direction1": "rabbits",
+            "direction2": "trees"
+        }
+    },
+    "rabbits": {
         "description": "",
         "directions": {
-            "direction1": "q2",
+            "direction1": "",
             "direction2": ""
         }
     },
