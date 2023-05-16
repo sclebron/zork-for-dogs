@@ -266,13 +266,41 @@ var rooms = {
         }
     },
     "further": {
+        "description": "While you are walking through the forest you hear a howl. You can go towards the howl or run back to the cabin.",
+        "directions": {
+            "direction1": "howl",
+            "direction2": "cabin"
+        }
+    },
+    "cave": {
+        "description": "Inside the cave you find a pack of wolves. You can enter the cave or back up.",
+        "directions": {
+            "direction1": "enter",
+            "direction2": "back"
+        }
+    },
+    "howl": {
+        "description": "The howl leads you to a cave. Inside the cave you find a pack of wolves. You can enter the cave or back up.",
+        "directions": {
+            "direction1": "enter",
+            "direction2": "back"
+        }
+    },
+    "enter": {
+        "description": "When you enter the cave some of the wolves start growling. You can slowly back out of the cave or sprint away.",
+        "directions": {
+            "direction1": "back",
+            "direction2": "sprint"
+        }
+    },
+    "back": {
         "description": "",
         "directions": {
             "direction1": "",
             "direction2": ""
         }
     },
-    "cave": {
+    "sprint": {
         "description": "",
         "directions": {
             "direction1": "",
