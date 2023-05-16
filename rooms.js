@@ -56,10 +56,17 @@ var rooms = {
         }
     },
     "shelter": {
+        "description": "You curl up under the canopy of a big tree and fall asleep. You wake up to a strange noise. You can go towards the noise or go back to sleep.",
+        "directions": {
+            "direction1": "noise",
+            "direction2": "sleep"
+        }
+    },
+    "sleep": {
         "description": "",
         "directions": {
             "direction1": "",
-            "direction2": "",
+            "direction2": ""
         }
     },
     "behind": {
