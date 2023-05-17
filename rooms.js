@@ -315,10 +315,10 @@ var rooms = {
         }
     },
     "sprint": {
-        "description": "",
+        "description": "You run through the woods and end up back at the cabin. You run to the cabin. You can scratch on the door or put your paws on the windowsill and look in the window.",
         "directions": {
-            "direction1": "",
-            "direction2": ""
+            "direction1": "scratch",
+            "direction2": "window"
         }
     },
     "scratch": {
