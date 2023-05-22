@@ -77,6 +77,10 @@ var rooms = {
         "directions": {
             "direction1": "shelter",
             "direction2": "dogs",
+        },
+        "points": {
+            "direction1/shelter": 0,
+            "direction2/dogs": 1
         }
     },
     "shelter": {
@@ -84,6 +88,10 @@ var rooms = {
         "directions": {
             "direction1": "noise",
             "direction2": "sleep"
+        },
+        "points": {
+            "direction1/noise": 1,
+            "direction2/sleep": 0
         }
     },
     "sleep": {
@@ -98,6 +106,10 @@ var rooms = {
         "directions": {
             "direction1": "hole",
             "direction2": "berries"
+        },
+        "points": {
+            "direction1/hole": 1,
+            "direction2/berries": 0
         }
     },
     "smoke": {
@@ -105,6 +117,10 @@ var rooms = {
         "directions": {
             "direction1": "man",
             "direction2": "dogs"
+        },
+        "points": {
+            "direction1/man": 1,
+            "direction2/dogs": 0
         }
     },
     "lake": {
@@ -126,6 +142,10 @@ var rooms = {
         "directions": {
             "direction1": "dogs",
             "direction2": "water"
+        },
+        "points": {
+            "direction1/dogs": 1,
+            "direction2/water": 0
         }
     },
     "man": {
@@ -140,6 +160,10 @@ var rooms = {
         "directions": {
             "direction1": "sleep",
             "direction2": "man"
+        },
+        "points": {
+            "direction1/sleep": 0,
+            "direction2/man": 1
         }
     },
     "water": {
