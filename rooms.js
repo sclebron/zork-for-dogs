@@ -171,6 +171,10 @@ var rooms = {
         "directions": {
             "direction1": "drink",
             "direction2": "swim"
+        },
+        "points": {
+            "direction1/drink": 1,
+            "direction2/swim": 0
         }
     },
     "drink": {
@@ -192,6 +196,10 @@ var rooms = {
         "directions": {
             "direction1": "rabbits",
             "direction2": "trees"
+        },
+        "points": {
+            "direction1/rabbits": 1,
+            "direction2/trees": 0
         }
     },
     "rabbits": {
@@ -206,6 +214,10 @@ var rooms = {
         "directions": {
             "direction1": "fox",
             "direction2": "trees"
+        },
+        "points": {
+            "direction1/fox": 0,
+            "direction2/trees": 1
         }
     },
     "sleep": {
@@ -213,6 +225,10 @@ var rooms = {
         "directions": {
             "direction1": "attached",
             "direction2": "bear"
+        },
+        "points": {
+            "direction1/attached": 1,
+            "direction2/bear": 0
         }
     },
     "attached": {
@@ -220,6 +236,10 @@ var rooms = {
         "directions": {
             "direction1": "riverside",
             "direction2": "stay"
+        },
+        "points": {
+            "direction1/riverside": 1,
+            "direction2/stay": 0
         }
     },
     "bear": {
@@ -230,10 +250,14 @@ var rooms = {
         }
     },
     "riverside": {
-        "description": "As you travel along the river one husky starts running and it turns into a race. You and the huskies are running as fast as you can and you're the fastest. There is a hole in the snow and you stop to inspect it. You can sniff around the hole or run back to the man fishing.",
+        "description": "As you travel along the river one husky starts running and it turns into a race. You and the huskies are running as fast as you can. There is a hole in the snow and you stop to inspect it. You can sniff around the hole or run back to the man fishing.",
         "directions": {
             "direction1": "sniff",
             "direction2": "fishing"
+        },
+        "points": {
+            "direction1/sniff": 0,
+            "direction2/fishing": 1
         }
     },
     "stay": {
@@ -248,6 +272,10 @@ var rooms = {
         "directions": {
             "direction1": "stop",
             "direction2": "keep"
+        },
+        "points": {
+            "direction1/stop": 1,
+            "direction2/keep": 0
         }
     },
     "fishing": {
@@ -262,6 +290,10 @@ var rooms = {
         "directions": {
             "direction1": "stare",
             "direction2": "catch"
+        },
+        "points": {
+            "direction1/stare": 1,
+            "direction2/catch": 0
         }
     },
     "keep": {
@@ -272,10 +304,14 @@ var rooms = {
         }
     },
     "stare": {
-        "description": "After a few seconds of staring at the man, he gives you a fish. You can eat the fish or bring it to one of the huskies.",
+        "description": "After a few seconds of staring at the man, he gives you a fish. You can bring the fish to one of the huskies or eat it.",
         "directions": {
-            "direction1": "eat",
-            "direction2": "bring"
+            "direction1": "bring",
+            "direction2": "eat"
+        },
+        "points": {
+            "direction1/bring": 0,
+            "direction2/eat": 1
         }
     },
     "catch": {
@@ -290,6 +326,10 @@ var rooms = {
         "directions": {
             "direction1": "walk",
             "direction2": "catch"
+        },
+        "points": {
+            "direction1/walk": 1,
+            "direction2/catch": 0
         }
     },
     "bring": {
