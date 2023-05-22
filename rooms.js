@@ -344,13 +344,21 @@ var rooms = {
         "directions": {
             "direction1": "cabin",
             "direction2": "past"
+        },
+        "points": {
+            "direction1/cabin": 1,
+            "direction2/past": 0
         }
     },
     "cabin": {
-        "description": "You run up to the cabin. You can scratch on the door or put your paws up on the windowsill and look through the window.",
+        "description": "You run up to the cabin. You can put your paws up on the windowsill and look through the window or scratch on the door",
         "directions": {
-            "direction1": "scratch",
-            "direction2": "window"
+            "direction1": "window",
+            "direction2": "scratch"
+        },
+        "points": {
+            "direction1/window": 0,
+            "direction2/scratch": 1
         }
     },
     "past": {
@@ -358,6 +366,9 @@ var rooms = {
         "directions": {
             "direction1": "tracks",
             "direction2": "further"
+        },
+        "points": {
+            
         }
     },
     "tracks": {
