@@ -5,12 +5,20 @@ var rooms = {
             "direction1": "deer",
             "direction2": "shrub"
         },
+        "points": {
+            "direction1/deer": 1,
+            "direction2/shrub": 0
+        }
     },
     "deer": {
         "description": "You walk up to the deer. You jump around and play with a few of the young deer. The deer appear to hear something to the left and get startled. They run to the right. You can follow the deer to the right or go left towards the noise.",
         "directions": {
             "direction1": "follow",
             "direction2": "noise"
+        },
+        "points": {
+            "direction1/follow": 1,
+            "direction2/noise": 0
         }
     },
     "shrub": {
@@ -18,6 +26,10 @@ var rooms = {
         "directions": {
             "direction1": "scent",
             "direction2": "behind"
+        },
+        "points": {
+            "direction1/scent": 1,
+            "direction2/behind": 0
         }
     },
     "follow": {
@@ -25,6 +37,10 @@ var rooms = {
         "directions": {
             "direction1": "smoke",
             "direction2": "lake"
+        },
+        "points": {
+            "direction1/smoke": 1,
+            "direction2/lake": 0
         }
     },
     "noise": {
@@ -32,6 +48,10 @@ var rooms = {
         "directions": {
             "direction1": "moose",
             "direction2": "run"
+        },
+        "points": {
+            "direction1/moose": 0,
+            "direction2/run": 1
         }
     },
     "scent": {
@@ -39,6 +59,10 @@ var rooms = {
         "directions": {
             "direction1": "snowshoeing",
             "direction2": "trees",
+        },
+        "points": {
+            "direction1/snowshoeing": 1,
+            "direction2/trees": 0
         }
     },
     "snowshoeing": {
