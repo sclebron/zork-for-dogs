@@ -10,16 +10,9 @@ function showHelp() {
 function playerInput(input) {
     let direction1 = rooms[currentRoom].directions.direction1;
     let direction2 = rooms[currentRoom].directions.direction2;
-    // if (input.includes(direction1) == true) {
-    //     let direction = direction1;
-    // } else if (input.includes(direction2) == true) {
-    //     let direction = direction2;
-    // }
-    // let direction = rooms.directions;
+    
     if (input === "help") {
         showHelp();
-    // } else if (input.includes(direction1) == true || input.includes(direction2) == true) {
-        // changeRoom();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
         $('#game-text').append('<p>You cannot go that way!</p>');
         console.log(currentRoom)
@@ -33,6 +26,10 @@ function playerInput(input) {
     } else {
         $('#game-text').append('<p>Invalid command</p>');
     }
+}
+
+function score() {
+
 }
 
 $(document).ready(function(){
