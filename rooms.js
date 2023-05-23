@@ -368,7 +368,8 @@ var rooms = {
             "direction2": "further"
         },
         "points": {
-            
+            "direction1/tracks": 0,
+            "direction2/further": 1
         }
     },
     "tracks": {
@@ -376,6 +377,10 @@ var rooms = {
         "directions": {
             "direction1": "cave",
             "direction2": "cabin"
+        },
+        "points": {
+            "direction1/cave": 0,
+            "direction2/cabin": 1
         }
     },
     "further": {
@@ -383,6 +388,10 @@ var rooms = {
         "directions": {
             "direction1": "howl",
             "direction2": "cabin"
+        },
+        "points": {
+            "direction1/howl": 0,
+            "direction2/cabin": 1
         }
     },
     "cave": {
@@ -390,6 +399,10 @@ var rooms = {
         "directions": {
             "direction1": "enter",
             "direction2": "back"
+        },
+        "points": {
+            "direction1/enter": 0,
+            "direction2/back": 1
         }
     },
     "howl": {
@@ -397,6 +410,10 @@ var rooms = {
         "directions": {
             "direction1": "enter",
             "direction2": "back"
+        },
+        "points": {
+            "direction1/enter": 0,
+            "direction2/back": 1
         }
     },
     "enter": {
@@ -404,6 +421,9 @@ var rooms = {
         "directions": {
             "direction1": "back",
             "direction2": "sprint"
+        },
+        "points": {
+            
         }
     },
     "back": {
