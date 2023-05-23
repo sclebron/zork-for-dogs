@@ -33,6 +33,7 @@ function score() {
     let point2 = rooms[currentRoom].points.direction2;
     let score = 0;
 
+    //need to change this so it is grabbing the user input for direction
     if ((point1 === 1 && point2 === 0) || (point1 === 0 && point2 === 1)) {
         score += 1
     }

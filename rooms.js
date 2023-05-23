@@ -216,8 +216,8 @@ var rooms = {
             "direction2": "trees"
         },
         "points": {
-            "direction1/fox": 0,
-            "direction2/trees": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "sleep": {
@@ -227,8 +227,8 @@ var rooms = {
             "direction2": "bear"
         },
         "points": {
-            "direction1/attached": 1,
-            "direction2/bear": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "attached": {
@@ -238,8 +238,8 @@ var rooms = {
             "direction2": "stay"
         },
         "points": {
-            "direction1/riverside": 1,
-            "direction2/stay": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "bear": {
@@ -256,8 +256,8 @@ var rooms = {
             "direction2": "fishing"
         },
         "points": {
-            "direction1/sniff": 0,
-            "direction2/fishing": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "stay": {
@@ -274,8 +274,8 @@ var rooms = {
             "direction2": "keep"
         },
         "points": {
-            "direction1/stop": 1,
-            "direction2/keep": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "fishing": {
@@ -292,8 +292,8 @@ var rooms = {
             "direction2": "catch"
         },
         "points": {
-            "direction1/stare": 1,
-            "direction2/catch": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "keep": {
@@ -310,8 +310,8 @@ var rooms = {
             "direction2": "eat"
         },
         "points": {
-            "direction1/bring": 0,
-            "direction2/eat": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "catch": {
@@ -328,8 +328,8 @@ var rooms = {
             "direction2": "catch"
         },
         "points": {
-            "direction1/walk": 1,
-            "direction2/catch": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "bring": {
@@ -346,8 +346,8 @@ var rooms = {
             "direction2": "past"
         },
         "points": {
-            "direction1/cabin": 1,
-            "direction2/past": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "cabin": {
@@ -357,8 +357,8 @@ var rooms = {
             "direction2": "scratch"
         },
         "points": {
-            "direction1/window": 0,
-            "direction2/scratch": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "past": {
@@ -368,8 +368,8 @@ var rooms = {
             "direction2": "further"
         },
         "points": {
-            "direction1/tracks": 0,
-            "direction2/further": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "tracks": {
@@ -379,8 +379,8 @@ var rooms = {
             "direction2": "cabin"
         },
         "points": {
-            "direction1/cave": 0,
-            "direction2/cabin": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "further": {
@@ -390,8 +390,8 @@ var rooms = {
             "direction2": "cabin"
         },
         "points": {
-            "direction1/howl": 0,
-            "direction2/cabin": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "cave": {
@@ -401,8 +401,8 @@ var rooms = {
             "direction2": "back"
         },
         "points": {
-            "direction1/enter": 0,
-            "direction2/back": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "howl": {
@@ -412,8 +412,8 @@ var rooms = {
             "direction2": "back"
         },
         "points": {
-            "direction1/enter": 0,
-            "direction2/back": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "enter": {
@@ -423,8 +423,8 @@ var rooms = {
             "direction2": "sprint"
         },
         "points": {
-            "direction1/back": 0,
-            "direction2/sprint": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "back": {
@@ -441,8 +441,8 @@ var rooms = {
             "direction2": "scratch"
         },
         "points": {
-            "direction1/window": 0,
-            "direction2/scratch": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "scratch": {
