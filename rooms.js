@@ -6,8 +6,8 @@ var rooms = {
             "direction2": "shrub"
         },
         "points": {
-            "direction1/deer": 1,
-            "direction2/shrub": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "deer": {
@@ -17,8 +17,8 @@ var rooms = {
             "direction2": "noise"
         },
         "points": {
-            "direction1/follow": 1,
-            "direction2/noise": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "shrub": {
@@ -28,8 +28,8 @@ var rooms = {
             "direction2": "behind"
         },
         "points": {
-            "direction1/scent": 1,
-            "direction2/behind": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "follow": {
@@ -39,8 +39,8 @@ var rooms = {
             "direction2": "lake"
         },
         "points": {
-            "direction1/smoke": 1,
-            "direction2/lake": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "noise": {
@@ -50,8 +50,8 @@ var rooms = {
             "direction2": "run"
         },
         "points": {
-            "direction1/moose": 0,
-            "direction2/run": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "scent": {
@@ -61,8 +61,8 @@ var rooms = {
             "direction2": "trees",
         },
         "points": {
-            "direction1/snowshoeing": 1,
-            "direction2/trees": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "snowshoeing": {
@@ -79,8 +79,8 @@ var rooms = {
             "direction2": "dogs",
         },
         "points": {
-            "direction1/shelter": 0,
-            "direction2/dogs": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "shelter": {
@@ -90,8 +90,8 @@ var rooms = {
             "direction2": "sleep"
         },
         "points": {
-            "direction1/noise": 1,
-            "direction2/sleep": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "sleep": {

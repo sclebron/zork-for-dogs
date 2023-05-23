@@ -31,6 +31,11 @@ function playerInput(input) {
 function score() {
     let point1 = rooms[currentRoom].points.direction1;
     let point2 = rooms[currentRoom].points.direction2;
+    let score = 0;
+
+    if ((point1 === 1 && point2 === 0) || (point1 === 0 && point2 === 1)) {
+        score += 1
+    }
 }
 
 $(document).ready(function(){
