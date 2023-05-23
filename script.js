@@ -10,7 +10,7 @@ function showHelp() {
 function playerInput(input) {
     let direction1 = rooms[currentRoom].directions.direction1;
     let direction2 = rooms[currentRoom].directions.direction2;
-    
+
     if (input === "help") {
         showHelp();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
@@ -29,7 +29,8 @@ function playerInput(input) {
 }
 
 function score() {
-
+    let point1 = rooms[currentRoom].points.direction1;
+    let point2 = rooms[currentRoom].points.direction2;
 }
 
 $(document).ready(function(){
