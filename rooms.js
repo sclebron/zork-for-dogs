@@ -351,7 +351,7 @@ var rooms = {
         }
     },
     "cabin": {
-        "description": "You run up to the cabin. You can put your paws up on the windowsill and look through the window or scratch on the door",
+        "description": "You run up to the cabin. You can put your paws up on the windowsill and look through the window or scratch on the door.",
         "directions": {
             "direction1": "window",
             "direction2": "scratch"
@@ -423,7 +423,8 @@ var rooms = {
             "direction2": "sprint"
         },
         "points": {
-            
+            "direction1/back": 0,
+            "direction2/sprint": 1
         }
     },
     "back": {
@@ -434,10 +435,14 @@ var rooms = {
         }
     },
     "sprint": {
-        "description": "You run through the woods and end up back at the cabin. You run to the cabin. You can scratch on the door or put your paws on the windowsill and look in the window.",
+        "description": "You run through the woods and end up back at the cabin. You run to the cabin. You can put your paws up on the windowsill and look through the window or scratch on the door.",
         "directions": {
-            "direction1": "scratch",
-            "direction2": "window"
+            "direction1": "window",
+            "direction2": "scratch"
+        },
+        "points": {
+            "direction1/window": 0,
+            "direction2/scratch": 1
         }
     },
     "scratch": {
