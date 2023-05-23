@@ -108,8 +108,8 @@ var rooms = {
             "direction2": "berries"
         },
         "points": {
-            "direction1/hole": 1,
-            "direction2/berries": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "smoke": {
@@ -119,8 +119,8 @@ var rooms = {
             "direction2": "dogs"
         },
         "points": {
-            "direction1/man": 1,
-            "direction2/dogs": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "lake": {
@@ -144,8 +144,8 @@ var rooms = {
             "direction2": "water"
         },
         "points": {
-            "direction1/dogs": 1,
-            "direction2/water": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "man": {
@@ -162,8 +162,8 @@ var rooms = {
             "direction2": "man"
         },
         "points": {
-            "direction1/sleep": 0,
-            "direction2/man": 1
+            "direction1": 0,
+            "direction2": 1
         }
     },
     "water": {
@@ -173,8 +173,8 @@ var rooms = {
             "direction2": "swim"
         },
         "points": {
-            "direction1/drink": 1,
-            "direction2/swim": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "drink": {
@@ -198,8 +198,8 @@ var rooms = {
             "direction2": "trees"
         },
         "points": {
-            "direction1/rabbits": 1,
-            "direction2/trees": 0
+            "direction1": 1,
+            "direction2": 0
         }
     },
     "rabbits": {
