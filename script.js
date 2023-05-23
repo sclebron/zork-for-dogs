@@ -34,6 +34,8 @@ function score() {
     let score = 0;
 
     //need to change this so it is grabbing the user input for direction
+    //need to connect user input for direction to the points
+    //then if the point that is attached to the direction the user selected is 1 -> score += 1 else if the point is 0 score remains the same (return score)
     if ((point1 === 1 && point2 === 0) || (point1 === 0 && point2 === 1)) {
         score += 1
     }
