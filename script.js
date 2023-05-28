@@ -33,6 +33,8 @@ function score() {
     let direction2 = rooms[currentRoom].directions.direction2;
     let point1 = rooms[currentRoom].points.direction1;
     let point2 = rooms[currentRoom].points.direction2;
+    console.log(Object.keys(rooms[currentRoom].directions))
+    console.log(Object.values(rooms[currentRoom].points))
     let score = 0;
 
     //need to change this so it is grabbing the user input for direction
