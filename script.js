@@ -43,7 +43,11 @@ function score() {
     //need to change this so it is grabbing the user input for direction
     //need to connect user input for direction to the points
     //then if the point that is attached to the direction the user selected is 1 -> score += 1 else if the point is 0 score remains the same (return score)
-    // if (input.includes(direction1) )
+    // if (input.includes(direction1) === true && point1 === 1) {
+        // score += 1
+    // } else if (input.includes(direction2) === true && point2 === 1) {
+    //     let point2 = rooms[currentRoom].points.direction2;
+    // }
 
     if ((point1 === 1 && point2 === 0) || (point1 === 0 && point2 === 1)) {
         score += 1
