@@ -31,7 +31,7 @@ function playerInput(input) {
     }
 }
 
-function score() {
+function score(input) {
     let direction1 = rooms[currentRoom].directions.direction1;
     let direction2 = rooms[currentRoom].directions.direction2;
     let point1 = rooms[currentRoom].points.direction1;
@@ -65,6 +65,7 @@ $(document).ready(function(){
             var value = $('#user-input').val().toLowerCase();
             $('#user-input').val('');
             playerInput(value)
+            score()
         }
     })
 })
