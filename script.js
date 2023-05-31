@@ -43,6 +43,8 @@ function score(input) {
         score += 1;
     }
 
+    //score is being logged but looks like the score is incorrect -> score stays at 0 even when it should be increasing
+
     console.log(score)
 }
 
