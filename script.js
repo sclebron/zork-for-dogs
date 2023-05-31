@@ -37,9 +37,6 @@ function score(input) {
     // console.log(Object.value(rooms[currentRoom].points))
     let score = 0;
 
-    //need to change this so it is grabbing the user input for direction
-    //need to connect user input for direction to the points
-    //then if the point that is attached to the direction the user selected is 1 -> score += 1 else if the point is 0 score remains the same (return score)
     if (input.includes(direction1) === true && point1 === 1) {
         score += 1;
     } else if (input.includes(direction2) === true && point2 === 1) {
@@ -57,7 +54,7 @@ $(document).ready(function(){
             var value = $('#user-input').val().toLowerCase();
             $('#user-input').val('');
             playerInput(value)
-            score()
+            score(value)
         }
     })
 })
