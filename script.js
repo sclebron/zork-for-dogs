@@ -11,9 +11,6 @@ function playerInput(input) {
     let direction1 = rooms[currentRoom].directions.direction1;
     let direction2 = rooms[currentRoom].directions.direction2;
 
-    console.log(Object.keys(rooms[currentRoom].directions))
-    console.log(Object.values(rooms[currentRoom].points))
-
     if (input === "help") {
         showHelp();
     } else if (input.includes(direction1) == false && input.includes(direction2) == false) {
