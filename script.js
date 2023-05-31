@@ -47,11 +47,6 @@ function score(input) {
     }
 
     console.log(score)
-
-
-    // if ((point1 === 1 && point2 === 0) || (point1 === 0 && point2 === 1)) {
-    //     score += 1
-    // }
 }
 
 $(document).ready(function(){
